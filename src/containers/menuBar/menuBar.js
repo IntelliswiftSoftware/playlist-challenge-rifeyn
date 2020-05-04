@@ -131,10 +131,10 @@ const ResponsiveDrawer = (props) => {
             </ListItem>
 
             <ListItem button key='plyalistLibrary'>
-              <Tooltip disableFocusListener title="Plyalist Library">
+              <Tooltip disableFocusListener title="Playlist Library">
                 <ListItemIcon><LibraryMusicIcon style={{ color: '#ffffff' }}/> </ListItemIcon>
               </Tooltip>
-              <ListItemText primary='Plyalist Library' />
+              <ListItemText primary='Playlist Library' />
             </ListItem>
               <List component="div" disablePadding>
                 <ListItem button className={classes.nested} onClick={() => createNewPlayList }>

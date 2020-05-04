@@ -31,10 +31,8 @@ const NewReleaseSongList = (props) => {
               image{  
                 low,  
                 mid,  
-                high  
-               
-              },  
-               
+                high
+              },
               artist{  
                 firstname,  
                 lastname,  
