@@ -24,7 +24,7 @@ import Collapse from '@material-ui/core/Collapse';
 import Search from '../searchBox';
 import UsetProfile from '../userProfile';
 import Home from '../../components/home';
-import PlyalistLibrary from '../../components/PlayListLibrabry/playlistLibrabry';
+import PlaylistLibrary from '../../components/PlayListLibrabry/playlistLibrabry';
 
 
 const drawerWidth = 240;
@@ -95,7 +95,7 @@ function ResponsiveDrawer(props) {
               <ListItemText primary='Home' />
             </ListItem>
             
-            <ListItem button key='plyalistLibrary' onClick={() => setComponent(<PlyalistLibrary />)}>
+            <ListItem button key='playlistLibrary' onClick={() => setComponent(<PlaylistLibrary />)}>
               <Tooltip disableFocusListener title="Plyalist Library">
                 <ListItemIcon><LibraryMusicIcon style={{ color: '#ffffff' }}/> </ListItemIcon>
               </Tooltip>

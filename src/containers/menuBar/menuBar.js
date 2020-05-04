@@ -32,7 +32,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import Search from '../searchBox';
 import UsetProfile from '../userProfile';
 import Home from '../../components/home';
-import PlyalistLibrary from '../../components/PlayListLibrabry/playlistLibrabry';
+import PlaylistLibrary from '../../components/PlayListLibrary/playlistLibrary';
 import ModalCreateNew from '../../containers/modalCreateNew';
 
 
@@ -130,7 +130,7 @@ const ResponsiveDrawer = (props) => {
               <ListItemText primary='Home' />
             </ListItem>
 
-            <ListItem button key='plyalistLibrary'>
+            <ListItem button key='playlistLibrary'>
               <Tooltip disableFocusListener title="Playlist Library">
                 <ListItemIcon><LibraryMusicIcon style={{ color: '#ffffff' }}/> </ListItemIcon>
               </Tooltip>
@@ -143,7 +143,7 @@ const ResponsiveDrawer = (props) => {
                   </ListItemIcon>
                   <ListItemText primary="Create New" />
                 </ListItem>
-                <ListItem button className={classes.nested} onClick={() => setComponent(<PlyalistLibrary />)}>
+                <ListItem button className={classes.nested} onClick={() => setComponent(<PlaylistLibrary />)}>
                   <ListItemIcon>
                   <PlaylistPlayIcon style={{ color: '#ffffff' }}/>
                   </ListItemIcon>
